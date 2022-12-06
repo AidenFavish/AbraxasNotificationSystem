@@ -5,6 +5,7 @@ from hidden import password, sender, reciever
 
 # set your email and password
 # please use App Password
+#turn into array
 email_address = sender
 email_password = password
 
