@@ -14,7 +14,7 @@ msg = EmailMessage()
 msg['Subject'] = "Aquaphonics Garden Alert"
 msg['From'] = email_address
 msg['To'] = reciever
-msg.set_content("System has detected a leak and both motors have been shut off")
+msg.set_content("Aquaphonics System has detected a leak and both motors have been shut off")
 
 # send email
 with smtplib.SMTP_SSL('smtp-relay.sendinblue.com', 465) as smtp:
